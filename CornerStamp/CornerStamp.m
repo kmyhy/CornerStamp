@@ -43,10 +43,8 @@
 }
 - (void)drawRect:(CGRect)frame {
     
-    //// General Declarations
     CGContextRef context = UIGraphicsGetCurrentContext();
     
-    //// Text Drawing
     CGContextSaveGState(context);
     CGContextTranslateCTM(context, CGRectGetMinX(frame) + _offset.x, CGRectGetMinY(frame) + _offset.y);// 将 corner stamp 的中心锚点挪到左上角，再挪到 offset
 
