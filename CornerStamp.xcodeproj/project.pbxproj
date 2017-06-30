@@ -13,6 +13,8 @@
 		12243A3B1F06202C0009BAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12243A391F06202C0009BAFE /* Main.storyboard */; };
 		12243A3D1F06202C0009BAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12243A3C1F06202C0009BAFE /* Assets.xcassets */; };
 		12243A401F06202C0009BAFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12243A3E1F06202C0009BAFE /* LaunchScreen.storyboard */; };
+		12243A4C1F062B4A0009BAFE /* CornerStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 12243A4B1F062B4A0009BAFE /* CornerStamp.m */; };
+		12243A4F1F063A660009BAFE /* UIView+CornerStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 12243A4E1F063A660009BAFE /* UIView+CornerStamp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		12243A3C1F06202C0009BAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12243A3F1F06202C0009BAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12243A411F06202C0009BAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12243A4A1F062B4A0009BAFE /* CornerStamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerStamp.h; sourceTree = "<group>"; };
+		12243A4B1F062B4A0009BAFE /* CornerStamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerStamp.m; sourceTree = "<group>"; };
+		12243A4D1F063A660009BAFE /* UIView+CornerStamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerStamp.h"; sourceTree = "<group>"; };
+		12243A4E1F063A660009BAFE /* UIView+CornerStamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerStamp.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,11 @@
 				12243A341F06202C0009BAFE /* AppDelegate.m */,
 				12243A361F06202C0009BAFE /* ViewController.h */,
 				12243A371F06202C0009BAFE /* ViewController.m */,
+				12243A4D1F063A660009BAFE /* UIView+CornerStamp.h */,
+				12243A4E1F063A660009BAFE /* UIView+CornerStamp.m */,
 				12243A391F06202C0009BAFE /* Main.storyboard */,
+				12243A4A1F062B4A0009BAFE /* CornerStamp.h */,
+				12243A4B1F062B4A0009BAFE /* CornerStamp.m */,
 				12243A3C1F06202C0009BAFE /* Assets.xcassets */,
 				12243A3E1F06202C0009BAFE /* LaunchScreen.storyboard */,
 				12243A411F06202C0009BAFE /* Info.plist */,
@@ -152,7 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				12243A381F06202C0009BAFE /* ViewController.m in Sources */,
+				12243A4C1F062B4A0009BAFE /* CornerStamp.m in Sources */,
 				12243A351F06202C0009BAFE /* AppDelegate.m in Sources */,
+				12243A4F1F063A660009BAFE /* UIView+CornerStamp.m in Sources */,
 				12243A321F06202C0009BAFE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
