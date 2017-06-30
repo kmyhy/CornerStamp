@@ -40,6 +40,7 @@
     self.backgroundColor = [UIColor clearColor];
     
     self.offset= CGPointMake(30, 30);
+    self.userInteractionEnabled = NO;
 }
 - (void)drawRect:(CGRect)frame {
     
