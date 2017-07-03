@@ -33,13 +33,13 @@
 -(void)setup{
     self.text = @"特价";
     self.textColor = [UIColor whiteColor];
-    self.fontSize = 14;
-    self.barWidth = 200;
-    self.barHeight = 30;
-    self.fillColor = [UIColor redColor];
+    self.fontSize = 10;
+    self.barWidth = 90;
+    self.barHeight = 15;
+    self.fillColor = [UIColor colorWithRed:0xfb/255.0 green:0x2e/255.0 blue:0x12/255.0 alpha:1];
     self.backgroundColor = [UIColor clearColor];
     
-    self.offset= CGPointMake(30, 30);
+    self.offset= CGPointMake(12, 12);
     self.userInteractionEnabled = NO;
 }
 - (void)drawRect:(CGRect)frame {
@@ -48,7 +48,7 @@
     
     CGContextSaveGState(context);
     CGContextTranslateCTM(context, CGRectGetMinX(frame) + _offset.x, CGRectGetMinY(frame) + _offset.y);// 将 corner stamp 的中心锚点挪到左上角，再挪到 offset
-
+    
     CGContextRotateCTM(context, -45 * M_PI / 180);
     
     CGRect textRect = CGRectMake(-_barWidth/2, -_barHeight/2, _barWidth, _barHeight);// 绘制时，整个 bar 的中心对齐左上角 0，0

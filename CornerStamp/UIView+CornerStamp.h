@@ -13,6 +13,6 @@
 
 @property(strong,nonatomic)CornerStamp* cornerStamp;
 
--(void)addStamp:(NSString*)text;
+-(void)addStamp:(NSString*)text frame:(CGRect)frame;
 -(void)removeStamp;
 @end

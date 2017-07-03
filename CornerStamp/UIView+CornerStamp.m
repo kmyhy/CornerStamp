@@ -22,9 +22,9 @@
     return  objc_getAssociatedObject(self, @selector(cornerStamp));
 }
 
--(void)addStamp:(NSString *)text{
+-(void)addStamp:(NSString *)text frame:(CGRect)frame{
     if(self.cornerStamp == nil){
-        self.cornerStamp = [[CornerStamp alloc]initWithFrame:self.bounds];
+        self.cornerStamp = [[CornerStamp alloc]initWithFrame:frame];
         [self addSubview:self.cornerStamp];
     }
     self.cornerStamp.text = text;

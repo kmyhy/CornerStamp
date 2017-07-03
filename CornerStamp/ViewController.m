@@ -43,9 +43,9 @@
 }
 - (IBAction)action:(UIButton*)sender {
     if(added){
-        [sender removeStamp];
+        [self.view removeStamp];
     }else{
-        [sender addStamp:@"推荐"];
+        [self.view addStamp:@"推荐" frame:sender.frame];
     }
     added = !added;
 }
